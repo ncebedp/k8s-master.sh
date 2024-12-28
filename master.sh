@@ -74,5 +74,5 @@ kubeadm init --apiserver-advertise-address 192.168.1.100 --pod-network-cidr 10.2
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
-
+# kubectl apply -f https://reweave.azurewebsites.net/k8s/v1.30/net.yaml  
 
