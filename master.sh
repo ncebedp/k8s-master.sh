@@ -66,8 +66,7 @@ sudo apt-get install -y kubelet kubeadm kubectl
 
 sudo apt-mark hold kubelet kubeadm kubectl
 
-# kubeadm init --apiserver-advertise-address 75.119.134.68 --pod-network-cidr 10.244.0.0/16 --cri-socket unix:///var/run/containerd/containerd.sock
-kubeadm init --apiserver-advertise-address 192.168.1.100 --pod-network-cidr 10.244.0.0/16 --cri-socket unix:///var/run/containerd/containerd.sock
+kubeadm init --apiserver-advertise-address 75.119.134.68 --pod-network-cidr 10.244.0.0/16 --cri-socket unix:///var/run/containerd/containerd.sock
 
 
 
